@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="page-wrapper" id="page-wrapper">
+        <div class="date-select-container" id="date-select-container"></div>
+        <div class="event-list-container" id="event-list-container">
+            <!--<div>
+                &lt;!&ndash;<input type="text" placeholder="Дата" onfocus="(this.type='date')" onblur="(this.type='text')" min="2019-01-01" max="2019-12-31">&ndash;&gt;
+            </div>-->
+        </div>
+        <div class="add-event-wrapper">
+            <div class="add-event">
+                <div class="add-event-text">
+                    <p>Добавить мероприятние</p>
+                </div>
+                <div class="add-event-input-wrapper">
+                    <form>
+                        <div class="add-event-input">
+                            <div class="input-wrap name">
+                                <label><span>Название</span><input type="text" id="name"></label>
+                            </div>
+                            <div class="input-wrap date">
+                                <label><span>Дата</span><input type="text" id="date" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')"></label>
+                            </div>
+                            <div class="input-wrap start">
+                                <label><span>Время начала</span><input type="text" placeholder="" onfocus="(this.type='time')" onblur="(this.type='text')" id="start"></label>
+                            </div>
+                            <div class="input-wrap end">
+                                <label><span>Время конца</span><input type="text" placeholder="" onfocus="(this.type='time')" onblur="(this.type='text')" id="end"></label>
+                            </div>
+                        </div>
+                        <div class="add-event-button-wrapper">
+                            <div class="add-event-button" id="button-add">
+                                <p>добавить</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
